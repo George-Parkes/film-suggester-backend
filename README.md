@@ -16,3 +16,14 @@ python3 -m django --version
 
 ```
 Note you can also [download pyenv](https://opensource.com/article/19/5/python-3-default-mac) to control the python version you're using locally (so you don't have to use `python3`, you can just set the local version to 3 and use `python`).
+
+The first time you run the project you'll need to run migrations.
+```
+python3 manage.py migrate
+
+```
+
+To run the project:
+```
+python3 manage.py runserver
+```
