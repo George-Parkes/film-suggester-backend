@@ -27,3 +27,14 @@ To run the project:
 ```
 python3 manage.py runserver
 ```
+
+# Endpoints
+
+```
+GET /hello_world
+Description: Returns text to show that the server is working.
+
+# Example curl request: 
+curl http://127.0.0.1:8000/hello_world/
+Hello, world!
+```
